@@ -77,8 +77,8 @@ Except it is not. Well, quality is ignored completly in cache checking. One coul
 3. **Run the Docker Container**:
    ```bash
     docker run -p 82:80 \
-    -v $(pwd)/html:/usr/local/openresty/nginx/html \
-    -v $(pwd)/private:/usr/local/openresty/nginx/private nginx-lua
+    -v $(pwd)/html:/var/www/html \
+    -v $(pwd)/private:/var/www/private nginx-lua
 
    ```
 
