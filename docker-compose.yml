@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nginx:
+    image: debian:bookworm
+    build: .
+    ports:
+      - "82:80"
+    volumes:
+      - ./html/:/var/www/html/   # ordinary public web
+      - ./private/:/var/www/private/  # home of the images
