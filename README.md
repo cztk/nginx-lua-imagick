@@ -4,6 +4,8 @@ This project sets up an NGINX server with Lua scripting to handle dynamic image 
 It uses LuaJIT's FFI (Foreign Function Interface) for file system operations and ImageMagick for image manipulation.
 The setup is containerized using Docker.
 
+dive deeper => https://leafo.net/posts/creating_an_image_server.html
+
 ## Directory Layout
 
 ```
